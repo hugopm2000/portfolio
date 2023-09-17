@@ -1,82 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
-  <link href="./static/assets/favicon.ico" rel="icon">
-
-  <title>Title page</title>  
-
-<link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
-
-<body class="minimal">
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
-<!-- Add your content of header -->
-<header>
-  <nav class="navbar  navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./works.html" title="">02 : Works</a></li>
-          <li><a href="./about.html" title="">03 : About me</a></li>
-          <li><a href="./contact.html" title="">04 : Contact</a></li>
+<link href="./static/index1.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="./static/assets/favicon.ico" rel="icon"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title> Hugo Pereira - Business Analyst</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="index"><a href="./index.html" title=""><img src="./static/assets/img-1.png" /></a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+         <li><a class = "button2" href="./index.html" title="">Home</a></li>
+          <li><a class = "button2" href="./about.html" title="">About me</a></li>
+          <li><a class = "button2" href="./works.html" title="">Works</a></li>
+          <li><a class = "button2" href="./contact.html" title="">Contact</a></li>
         </ul>
-
-
-      </div> 
-    </div>
-  </nav>
-</header>
-<!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./static/assets/images/space.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm Hugo Pereira</span>
-                  <span>Python developer</span>
-                  <span>Working as an Instructor</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            <div class="typing-slider">
+              <h1><span class="auto-type"></span></h1>
             </div>
-          </div>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+              var typed = new Typed(".auto-type",{
+              strings: ["I'm Hugo Pereira","Business Analyst"],
+              typeSpeed: 150,
+              backSpeed: 150,
+              loop: true
+              })
+            </script>
+          </h1>
+          <p class="description">
+            Hard-working and passionate IT business analyst with one year of experience
+            in the banking area, evaluating and improving regulatory systems for Natixis
+            in Portugal, meeting business requests through Agile and Scrum methodologies.
+            Organized, communicative and quick-to-learn person, with capacity and experience
+            to work as team, with self-initiative and critical spirit to reach positive
+            results and implement technological solutions.
+          </p>
+  <ul class="wrapper">
+    <li>
+      <a class="icon facebook" href="https://www.facebook.com/hugo.pereira.06" target="_blank">
+      <span class="tooltip">Facebook</span>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </a>
+    </li>
+    <li> <a class="icon twitter" href="https://twitter.com/hugopm2000" target="_blank">
+      <span class="tooltip">Twitter</span>
+      <span><i class="fab fa-twitter"></i></span>
+      </a>
+    </li>
+    <li><a class="icon instagram" href="https://www.instagram.com/hugopereira_2000/?next=%2F" target="_blank">
+      <span class="tooltip">Instagram</span>
+      <span><i class="fab fa-instagram"></i></span>
+    </a>
+    </li>
+    <li><a class="icon github" href="https://github.com/hugopm2000" target="_blank">
+      <span class="tooltip">Github</span>
+      <span><i class="fab fa-github"></i></span>
+    </a>
+    </li>
+    <li>
+      <a class="icon linkedin" href="https://www.linkedin.com/in/hugo-pereira-89919a218/" target="_blank">
+      <span class="tooltip">Linkedin</span>
+      <span><i class="fab fa-linkedin"></i></span>
+    </a>
+    </li>
+     </ul>
+    <ul class = "smth">
+        <div class="action__btns">
+            <a class="hire__me" type = "button" href="./contact.html">Hire Me</a>
+            <a class = "portfolio" type = "button" href="./static/assets/HugoPereira_cv.pdf" download>Download CV</a>
+        </div>
+    </ul>
+        </div>
+        <div class="image">
+          <img src="./static/assets/Hugo.png" alt="profile image" />
         </div>
       </div>
-    </div>
-  </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
-</script>
-
-
-<script type="text/javascript" src="./static/main.70a66962.js"></script></body>
-
+  </section>
+  </body>
 </html>
